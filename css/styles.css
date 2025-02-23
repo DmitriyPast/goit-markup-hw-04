@@ -324,14 +324,21 @@ section.portfolio {
 
 .links-item {
   height: 40px;
-  width: 100%;
-  height: 100%;
 }
 
 .link {
   background-color: #4d5ae5;
-}
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+.link:hover, .link:focus{
+  background-color: #404bbf;
+}
 .proj-list {
   display: flex;
   flex-wrap: wrap;
