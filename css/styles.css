@@ -32,6 +32,10 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .site-hdr {
@@ -360,7 +364,6 @@ section.portfolio {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .pc-img-container {
   position: relative;
   overflow: hidden;
@@ -434,8 +437,16 @@ section.portfolio {
 .block {
   display: inline-block;
 }
-.mb16 {
+
+.social-links-caption {
   margin-bottom: 16px;
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5; /* line-height: 24px; */
+  letter-spacing: 0.02em;
+  color: #fff;
 }
 
 .social-links {
