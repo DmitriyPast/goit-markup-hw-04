@@ -35,7 +35,6 @@ img {
 
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .site-hdr {
@@ -453,3 +452,5 @@ section.portfolio {
   display: flex;
   gap: 16px;
 }
+
+  margin-right: 120px;
