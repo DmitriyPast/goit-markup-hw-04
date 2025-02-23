@@ -133,9 +133,12 @@ img {
   padding: 188px 0;
 }
 
-.hero-bg {
-  background-image: url("../images/Dark-bg.png"),
-    url("../images/people-office\ 1.png");
+.hero-bg { 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpg);
+  
+  
+  /* background-image: url("../images/Dark-bg.png"),
+    url("../images/people-office\ 1.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
