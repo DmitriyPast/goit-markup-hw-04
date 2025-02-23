@@ -115,11 +115,16 @@ img {
   padding: 188px 0;
 }
 
-.hero-bg,
+.hero-bg {
+  background-image: url("../images/Dark-bg.png"),
+    url("../images/people-office\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .ws-bottom-bg {
   background: #2e2f42;
 }
-
 .hero-text {
   /* font-family: "Roboto", sans-serif; */
   max-width: 496px;
@@ -185,6 +190,15 @@ section.portfolio {
   /* width: calc((100% - 3 * 24px) / 4); */
   /* flex-basis: calc((100% - 3 * 24px) / 4); */
   /* flex-basis: calc((100% - 72px) / 4); */
+  overflow: hidden;
+}
+
+.feature-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
 }
 
 .feature-title {
@@ -229,10 +243,16 @@ section.portfolio {
   background: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
 }
 
 .tc-wrapper {
   padding: 32px 0;
+}
+
+.team-photo {
+  width: 264px;
+  height: 260px;
 }
 
 .team-name {
@@ -256,6 +276,11 @@ section.portfolio {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-links {
+  display: flex;
+  gap: 24px;
 }
 
 .proj-list {
@@ -297,7 +322,7 @@ section.portfolio {
   color: #434455;
 }
 
-.ws-desc {
+.text-white {
   /* font-family: "Roboto", sans-serif; */
   font-weight: 400;
   font-size: 16px;
@@ -309,9 +334,17 @@ section.portfolio {
 
 .ws-bottom {
   padding: 100px 0;
+  display: flex;
 }
 
 .block {
   display: inline-block;
+}
+.mb16 {
   margin-bottom: 16px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
 }
