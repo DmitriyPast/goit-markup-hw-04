@@ -340,6 +340,7 @@ section.portfolio {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link:hover,
 .link:focus {
   background-color: #404bbf;
@@ -455,4 +456,8 @@ section.portfolio {
 
 .logo-text-container {
   margin-right: 120px;
+}
+
+.links-bg:hover, .links-bg:focus {
+  background-color: #31d0aa;
 }
