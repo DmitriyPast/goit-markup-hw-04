@@ -53,16 +53,16 @@ img {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
-.site-hdr > .container {
-  display: flex;
-}
-
+/* .site-hdr > .container{
+display: flex;
+align-items: center;
+margin-right: auto;
+} */
+.site-hdr > .container,
 .site-nav {
   display: flex;
+  /* fixes from url(https://www.loom.com/share/c73e5fdbf16c47f99e5dc4097c92defc?sid%3D5719a705-c30e-4398-be2f-16b66c78a13f) and url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
   align-items: center;
-
-  /* fixes from url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
   margin-right: auto;
 }
 
@@ -457,7 +457,7 @@ section.portfolio {
   display: flex;
 }
 
-.ftr-container {
+.ws-bottom > .container {
   display: flex;
 }
 
