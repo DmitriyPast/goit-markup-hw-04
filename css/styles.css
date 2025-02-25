@@ -459,6 +459,7 @@ section.portfolio {
 
 .ws-bottom > .container {
   display: flex;
+  align-items: baseline;
 }
 
 /* .block {
