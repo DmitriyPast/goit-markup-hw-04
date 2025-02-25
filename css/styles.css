@@ -107,8 +107,8 @@ margin-right: auto;
 }
 
 .nav-item.active,
-.nav-list:hover,
-.nav-list:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: #404bbf;
 }
 
