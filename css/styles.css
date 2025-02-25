@@ -33,8 +33,19 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 
-  display: flex;
-  align-items: baseline;
+  /* fixes from url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
+  /* display: flex; noflex*/
+  /* flex-direction: column; */
+  /* align-items: baseline; */
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+}
+
+.tc-mb {
+  margin-bottom: 8px;
 }
 
 .site-hdr {
@@ -50,6 +61,9 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+
+  /* fixes from url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
+  margin-right: auto;
 }
 
 .ws-logo {
@@ -87,6 +101,9 @@ img {
   color: #2e2f42;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* fixes from url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
+  display: block;
 }
 
 .nav-item.active,
@@ -134,6 +151,9 @@ img {
 .hero {
   padding: 188px 0;
   max-width: 1440px;
+
+  /* fixes from url(https://www.loom.com/share/5b7fa2eb5bf3419b81f4e202121334e5?sid%3D4f42aa63-a6f2-4307-8cce-452f32efc100) */
+  margin: 0 auto;
 }
 
 .hero-bg {
@@ -359,9 +379,12 @@ section.portfolio {
 
 .proj-card {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.proj-card:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pc-img-container {
@@ -387,7 +410,7 @@ section.portfolio {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.pc-img-container:hover .hidden-text-desc {
+.proj-card:hover .hidden-text-desc {
   transform: translateY(0%);
 }
 
@@ -434,8 +457,21 @@ section.portfolio {
   display: flex;
 }
 
-.block {
+.ftr-container {
+  display: flex;
+}
+
+/* .block {
+} */
+
+.ws-ftr {
   display: inline-block;
+  min-width: 264px;
+  margin-bottom: 16px;
+}
+
+.ws-desc {
+  max-width: 264px;
 }
 
 .social-links-caption {
@@ -458,6 +494,7 @@ section.portfolio {
   margin-right: 120px;
 }
 
-.links-bg:hover, .links-bg:focus {
+.links-bg:hover,
+.links-bg:focus {
   background-color: #31d0aa;
 }
