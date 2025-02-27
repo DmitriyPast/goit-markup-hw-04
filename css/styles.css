@@ -44,6 +44,10 @@ img {
   margin: auto;
 }
 
+.mb-hero{
+  margin-bottom: 48px;
+}
+
 .tc-mb {
   margin-bottom: 8px;
 }
@@ -252,13 +256,13 @@ section.portfolio {
   margin-bottom: 8px;
 }
 
-.feature-icon {
+/* .feature-icon {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-}
+} */
 
 .feature-title {
   /* font-family: "Roboto", sans-serif; */
@@ -467,7 +471,7 @@ section.portfolio {
 
 .ws-ftr {
   display: inline-block;
-  min-width: 264px;
+  /* min-width: 264px; */
   margin-bottom: 16px;
 }
 
